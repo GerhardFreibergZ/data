@@ -1,0 +1,1499 @@
+[
+    {
+        "id": "922947a150995d7b",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ca2bef9330ce4906",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "showPageTitle": true,
+        "navigationStyle": "icon",
+        "titleBarStyle": "default"
+    },
+    {
+        "id": "5d68072ee7cfe08a",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094CE",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "34e71493ee96be33",
+        "type": "ui-page",
+        "name": "Buscar Cita",
+        "ui": "ca2bef9330ce4906",
+        "path": "/buscar_cita",
+        "icon": "clipboard-text-search-outline",
+        "layout": "grid",
+        "theme": "5d68072ee7cfe08a",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "5fa8c06a6722fc6d",
+        "type": "ui-group",
+        "name": "Buscar Cita",
+        "page": "34e71493ee96be33",
+        "width": "6",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "1522846c2a6fb2a5",
+        "type": "ui-page",
+        "name": "Agendar Cita",
+        "ui": "ca2bef9330ce4906",
+        "path": "/agendar_cita",
+        "icon": "calendar-multiple-check",
+        "layout": "grid",
+        "theme": "5d68072ee7cfe08a",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 2,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "170312760cd60789",
+        "type": "ui-page",
+        "name": "Modificar Citas",
+        "ui": "ca2bef9330ce4906",
+        "path": "/modificar_citas",
+        "icon": "calendar-edit-outline",
+        "layout": "grid",
+        "theme": "5d68072ee7cfe08a",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 3,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "65a0f8398f38dd6e",
+        "type": "ui-page",
+        "name": "Resultados Lab",
+        "ui": "ca2bef9330ce4906",
+        "path": "/resultados_lab",
+        "icon": "chart-line",
+        "layout": "grid",
+        "theme": "5d68072ee7cfe08a",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 4,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "61b5aa02fcbf87aa",
+        "type": "ui-page",
+        "name": "Registrar triage",
+        "ui": "ca2bef9330ce4906",
+        "path": "/registrar_triage",
+        "icon": "check-underline-circle-outline",
+        "layout": "grid",
+        "theme": "5d68072ee7cfe08a",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 5,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "7b65365229c35f11",
+        "type": "ui-page",
+        "name": "Crear Paciente",
+        "ui": "ca2bef9330ce4906",
+        "path": "/crear_paciente",
+        "icon": "account-plus-outline",
+        "layout": "grid",
+        "theme": "5d68072ee7cfe08a",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 6,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "d73e31241d3c0ccf",
+        "type": "ui-page",
+        "name": "Modificar Paciente",
+        "ui": "ca2bef9330ce4906",
+        "path": "/modificar_paciente",
+        "icon": "account-edit",
+        "layout": "grid",
+        "theme": "5d68072ee7cfe08a",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 7,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "c8db9566e4a50224",
+        "type": "ui-group",
+        "name": "Agendar Cita",
+        "page": "1522846c2a6fb2a5",
+        "width": "6",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "09c9689c94745312",
+        "type": "ui-link",
+        "name": "API",
+        "ui": "ca2bef9330ce4906",
+        "path": "/api-docs/#/",
+        "icon": "api",
+        "order": 8,
+        "visible": false,
+        "disabled": "false"
+    },
+    {
+        "id": "fec26bff9e869e13",
+        "type": "ui-group",
+        "name": "Modificar Citas",
+        "page": "170312760cd60789",
+        "width": "6",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "3679dcc4cf68064a",
+        "type": "ui-group",
+        "name": "Resultados Lab",
+        "page": "65a0f8398f38dd6e",
+        "width": "6",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "b2e9679ceda54f81",
+        "type": "ui-group",
+        "name": "Registrar triage",
+        "page": "61b5aa02fcbf87aa",
+        "width": "6",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "a1b88f74f0a15d40",
+        "type": "ui-group",
+        "name": "Crear Paciente",
+        "page": "7b65365229c35f11",
+        "width": "6",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "e0b7602502aec665",
+        "type": "ui-group",
+        "name": "Modificar Paciente",
+        "page": "d73e31241d3c0ccf",
+        "width": "6",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "081994b8d132360b",
+        "type": "openApi-red-url",
+        "name": "demo",
+        "url": "mongo.json",
+        "urlType": "Files",
+        "server": "",
+        "serverType": "custom",
+        "devMode": false,
+        "headers": [],
+        "_version": "2.1.0"
+    },
+    {
+        "id": "a4cfc1055007c303",
+        "type": "http request",
+        "z": "922947a150995d7b",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://172.22.0.2:8080/cita",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 430,
+        "y": 80,
+        "wires": [
+            [
+                "340d9c30143ac50e",
+                "563bca368cd9c831"
+            ]
+        ]
+    },
+    {
+        "id": "00180439e5fb691b",
+        "type": "inject",
+        "z": "922947a150995d7b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 220,
+        "y": 80,
+        "wires": [
+            [
+                "a4cfc1055007c303"
+            ]
+        ]
+    },
+    {
+        "id": "563bca368cd9c831",
+        "type": "debug",
+        "z": "922947a150995d7b",
+        "name": "debug",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "f9462561b9501514",
+        "type": "inject",
+        "z": "922947a150995d7b",
+        "name": "Prueba json para modificar cita",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"diagnostico\":{\"codigo\":\"a01\"},\"estado\":\"realizado\"}",
+        "payloadType": "json",
+        "x": 210,
+        "y": 1020,
+        "wires": [
+            [
+                "41fadad95bd73d17"
+            ]
+        ]
+    },
+    {
+        "id": "41fadad95bd73d17",
+        "type": "debug",
+        "z": "922947a150995d7b",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "97a27d02ddf6533a",
+        "type": "debug",
+        "z": "922947a150995d7b",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "8e565976237bc95e",
+        "type": "inject",
+        "z": "922947a150995d7b",
+        "name": "Prueba json para crear cita  ",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"historia\":123456789,\"fechaCita\":\"2024-10-02T23:00:00\",\"actividad\":{\"codigo\":\"rxcl04\"},\"consultorio\":{\"codigo\":1}}",
+        "payloadType": "json",
+        "x": 190,
+        "y": 1080,
+        "wires": [
+            [
+                "97a27d02ddf6533a"
+            ]
+        ]
+    },
+    {
+        "id": "8b1e62057611e396",
+        "type": "inject",
+        "z": "922947a150995d7b",
+        "name": "Data demo de form",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"paciente\":986457321236,\"hora\":\"1970-01-01T11:13:00.000Z\",\"fecha\":\"2024-10-02T05:00:00.000Z\",\"actividad\":\"datodeac\",\"consultorio\":987287}",
+        "payloadType": "json",
+        "x": 170,
+        "y": 1140,
+        "wires": [
+            [
+                "40a1a2b97e94bb37"
+            ]
+        ]
+    },
+    {
+        "id": "7896e9a6e45da459",
+        "type": "debug",
+        "z": "922947a150995d7b",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "40a1a2b97e94bb37",
+        "type": "function",
+        "z": "922947a150995d7b",
+        "name": "traductor para api rest ",
+        "func": "// Obtenemos los valores del mensaje original\nlet paciente = msg.payload.paciente;\nlet fecha = msg.payload.fecha.split('T')[0]; // Extraemos solo la parte de la fecha (antes de la 'T')\nlet hora = msg.payload.hora.split('T')[1].slice(0, 8); // Extraemos solo la parte de la hora (sin milisegundos ni 'Z')\nlet actividad = msg.payload.actividad;\nlet consultorio = msg.payload.consultorio;\n\n// Combinamos la fecha y la hora en el formato deseado sin milisegundos ni 'Z'\nlet fechaCita = `${fecha}T${hora}`; // Unimos la fecha con la hora en el formato correcto\n\n// Creamos el nuevo objeto con el formato deseado\nlet nuevoObjeto = {\n    historia: paciente, // Cambiamos el nombre a \"historia\"\n    fechaCita: fechaCita, // Usamos la fecha y la hora combinadas\n    actividad: {\n        codigo: actividad // Usamos el valor dinámico de actividad\n    },\n    consultorio: {\n        codigo: consultorio // Usamos el valor dinámico de consultorio\n    }\n};\n\n// Asignamos el nuevo objeto como el payload para continuar el flujo\nmsg.payload = nuevoObjeto;\n\n// Retornamos el mensaje\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 1140,
+        "wires": [
+            [
+                "7896e9a6e45da459"
+            ]
+        ]
+    },
+    {
+        "id": "24abd7fdf91e80fa",
+        "type": "function",
+        "z": "922947a150995d7b",
+        "name": "traductor para api rest ",
+        "func": "// Obtenemos los valores del mensaje original\nlet paciente = msg.payload.paciente;\nlet fecha = msg.payload.fecha.split('T')[0]; // Extraemos solo la parte de la fecha (antes de la 'T')\nlet hora = msg.payload.hora.split('T')[1].slice(0, 8); // Extraemos solo la parte de la hora (sin milisegundos ni 'Z')\nlet actividad = msg.payload.actividad;\nlet consultorio = msg.payload.consultorio;\n\n// Combinamos la fecha y la hora en el formato deseado sin milisegundos ni 'Z'\nlet fechaCita = `${fecha}T${hora}`; // Unimos la fecha con la hora en el formato correcto\n\n// Creamos el nuevo objeto con el formato deseado\nlet nuevoObjeto = {\n    historia: paciente, // Cambiamos el nombre a \"historia\"\n    fechaCita: fechaCita, // Usamos la fecha y la hora combinadas\n    actividad: {\n        codigo: actividad // Usamos el valor dinámico de actividad\n    },\n    consultorio: {\n        codigo: consultorio // Usamos el valor dinámico de consultorio\n    }\n};\n\n// Asignamos el nuevo objeto como el payload para continuar el flujo\nmsg.payload = nuevoObjeto;\n\n// Retornamos el mensaje\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 1200,
+        "wires": [
+            [
+                "7c219ce8a219234d"
+            ]
+        ]
+    },
+    {
+        "id": "7c219ce8a219234d",
+        "type": "debug",
+        "z": "922947a150995d7b",
+        "name": "sin GTM",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "e0e2a52fb36549bd",
+        "type": "ui-button",
+        "z": "922947a150995d7b",
+        "group": "5fa8c06a6722fc6d",
+        "name": "",
+        "label": "Buscar 🔍",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "x": 210,
+        "y": 140,
+        "wires": [
+            [
+                "a4cfc1055007c303"
+            ]
+        ]
+    },
+    {
+        "id": "4e7a4c15f04cd15b",
+        "type": "ui-text",
+        "z": "922947a150995d7b",
+        "group": "5fa8c06a6722fc6d",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "className": "",
+        "x": 810,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "7ac83f792607b35b",
+        "type": "inject",
+        "z": "922947a150995d7b",
+        "name": "borrar",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": " ",
+        "payloadType": "str",
+        "x": 290,
+        "y": 220,
+        "wires": [
+            [
+                "4e7a4c15f04cd15b"
+            ]
+        ]
+    },
+    {
+        "id": "340d9c30143ac50e",
+        "type": "function",
+        "z": "922947a150995d7b",
+        "name": "filtro \"estado\"",
+        "func": "msg.payload = msg.payload[0].estado;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 140,
+        "wires": [
+            [
+                "4e7a4c15f04cd15b"
+            ]
+        ]
+    },
+    {
+        "id": "12d58af4a1c246ce",
+        "type": "function",
+        "z": "922947a150995d7b",
+        "name": "texto en blanco",
+        "func": "msg.payload = msg.payload[\" \"];\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 320,
+        "wires": [
+            [
+                "ed298ec31272ce9d"
+            ]
+        ]
+    },
+    {
+        "id": "23c1f4762d9afd52",
+        "type": "inject",
+        "z": "922947a150995d7b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 320,
+        "y": 320,
+        "wires": [
+            [
+                "12d58af4a1c246ce"
+            ]
+        ]
+    },
+    {
+        "id": "ed298ec31272ce9d",
+        "type": "delay",
+        "z": "922947a150995d7b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 800,
+        "y": 320,
+        "wires": [
+            [
+                "4e7a4c15f04cd15b"
+            ]
+        ]
+    },
+    {
+        "id": "754973073a9e173f",
+        "type": "comment",
+        "z": "922947a150995d7b",
+        "name": "Parte de Cita (PostgreSQL)",
+        "info": "",
+        "x": 280,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "3d7ada1d75d21746",
+        "type": "inject",
+        "z": "922947a150995d7b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"recordId\":\"rec-001\",\"date\":\"2023-10-05T00:00:00.000Z\"}",
+        "payloadType": "json",
+        "x": 210,
+        "y": 1460,
+        "wires": [
+            [
+                "762fbff17af9ddd9"
+            ]
+        ]
+    },
+    {
+        "id": "996409c90c5fad07",
+        "type": "debug",
+        "z": "922947a150995d7b",
+        "name": "debug 18",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "762fbff17af9ddd9",
+        "type": "http request",
+        "z": "922947a150995d7b",
+        "name": "",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://172.22.0.5:3000/registros",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 450,
+        "y": 1460,
+        "wires": [
+            [
+                "996409c90c5fad07"
+            ]
+        ]
+    },
+    {
+        "id": "859f24b5f91d53fc",
+        "type": "comment",
+        "z": "922947a150995d7b",
+        "name": "Parte de Lab (MongoDB)",
+        "info": "",
+        "x": 270,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "bf1c5c6c0501a14b",
+        "type": "inject",
+        "z": "922947a150995d7b",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 210,
+        "y": 1520,
+        "wires": [
+            [
+                "2a0e80c86a50deb6"
+            ]
+        ]
+    },
+    {
+        "id": "abb31ae11c6fc40e",
+        "type": "debug",
+        "z": "922947a150995d7b",
+        "name": "debug 19",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "2a0e80c86a50deb6",
+        "type": "http request",
+        "z": "922947a150995d7b",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://172.22.0.5:3000/registros",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 430,
+        "y": 1520,
+        "wires": [
+            [
+                "abb31ae11c6fc40e",
+                "60f13f638b045735"
+            ]
+        ]
+    },
+    {
+        "id": "60f13f638b045735",
+        "type": "ui-text",
+        "z": "922947a150995d7b",
+        "group": "3679dcc4cf68064a",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "className": "",
+        "x": 630,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "78c65cd44ac3de47",
+        "type": "ui-button",
+        "z": "922947a150995d7b",
+        "group": "3679dcc4cf68064a",
+        "name": "",
+        "label": "Ver Lab",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "x": 200,
+        "y": 1560,
+        "wires": [
+            [
+                "2a0e80c86a50deb6"
+            ]
+        ]
+    },
+    {
+        "id": "982bd6f853fc1d32",
+        "type": "comment",
+        "z": "922947a150995d7b",
+        "name": "Parte de Pacientes (MySQL)",
+        "info": "",
+        "x": 260,
+        "y": 1740,
+        "wires": []
+    },
+    {
+        "id": "7f89956c6cc80372",
+        "type": "ui-form",
+        "z": "922947a150995d7b",
+        "name": "Formulario",
+        "group": "c8db9566e4a50224",
+        "label": "",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Historia",
+                "key": "historia",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Actividad",
+                "key": "actividad",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Consultorio",
+                "key": "codigo-consultorio",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "historia": "",
+            "actividad": "",
+            "codigo-consultorio": ""
+        },
+        "payload": "",
+        "submit": "Crear Cita",
+        "cancel": "",
+        "resetOnSubmit": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "passthru": false,
+        "dropdownOptions": [],
+        "x": 730,
+        "y": 580,
+        "wires": [
+            [
+                "5fb4f8b0fc85d102"
+            ]
+        ]
+    },
+    {
+        "id": "67b079d62078e18b",
+        "type": "ui-text-input",
+        "z": "922947a150995d7b",
+        "group": "c8db9566e4a50224",
+        "name": "Fecha de Cita",
+        "label": "fecha_cita",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "topic": "topic",
+        "topicType": "msg",
+        "mode": "datetime-local",
+        "tooltip": "",
+        "delay": 300,
+        "passthru": true,
+        "sendOnDelay": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": true,
+        "sendOnClear": true,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 560,
+        "y": 480,
+        "wires": [
+            [
+                "a2de5eb48d1939c8"
+            ]
+        ]
+    },
+    {
+        "id": "5fb4f8b0fc85d102",
+        "type": "function",
+        "z": "922947a150995d7b",
+        "name": "function 4",
+        "func": "// Verificamos si el mensaje contiene la fecha de cita\nif (msg.payload.fecha_cita) {\n    // Guardamos la fecha de cita en el contexto del flujo\n    flow.set('fecha_cita', msg.payload.fecha_cita);\n}\n\n// Verificamos si el mensaje contiene el formulario con la historia\nif (msg.payload.historia) {\n    // Guardamos los datos del formulario en el contexto del flujo\n    flow.set('formulario', msg.payload);\n}\n\n// Recuperamos los datos guardados del flujo\nlet fechaCita = flow.get('fecha_cita') || null;\nlet formulario = flow.get('formulario') || null;\n\n// Comprobamos si ya tenemos ambos datos (fecha y formulario)\nif (fechaCita && formulario) {\n    // Combinamos los datos en un solo objeto\n    msg.payload = {\n        fecha_cita: fechaCita,\n        historia: formulario.historia,\n        actividad: formulario.actividad,\n        codigo_consultorio: formulario['codigo-consultorio']\n    };\n\n    // Creamos un nuevo mensaje para restablecer los campos a vacío o null\n    let resetFormMsg = { \n        payload: {\n            fecha_cita: null,  // O \"\" si prefieres vaciarlo\n            historia: null, \n            actividad: null, \n            codigo_consultorio: null \n        }\n    };\n\n    // Limpiamos los datos en el contexto para futuros mensajes\n    flow.set('fecha_cita', null);\n    flow.set('formulario', null);\n\n    // Devolvemos dos mensajes:\n    // 1. El mensaje original con los datos combinados (la cita enviada)\n    // 2. El mensaje de restablecimiento para vaciar todos los campos del formulario\n    return [msg, resetFormMsg];\n}\n\n// Si aún no tenemos ambos datos, no hacemos nada\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 520,
+        "wires": [
+            [
+                "02b194f1e047fa69",
+                "c94a178027a44391"
+            ]
+        ]
+    },
+    {
+        "id": "a2de5eb48d1939c8",
+        "type": "function",
+        "z": "922947a150995d7b",
+        "name": "function 3",
+        "func": "// Convertir la fecha a un objeto con clave 'fecha_cita'\nmsg.payload = {\n    fecha_cita: msg.payload\n};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 480,
+        "wires": [
+            [
+                "5fb4f8b0fc85d102"
+            ]
+        ]
+    },
+    {
+        "id": "ef8a8f807f048faf",
+        "type": "debug",
+        "z": "922947a150995d7b",
+        "name": "debug 26",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1500,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "858c2efbefa809f3",
+        "type": "function",
+        "z": "922947a150995d7b",
+        "name": "function 2",
+        "func": "\n// Obtenemos los datos del mensaje combinado por el nodo `join`\nlet fechaCita = msg.payload.fecha_cita;\nlet formulario = msg.payload.formulario;\n\n// Unimos ambos datos en un solo objeto\nlet citaCombinada = {\n    historia: formulario.historia,\n    actividad: formulario.actividad,\n    codigo_consultorio: formulario['codigo-consultorio'],\n    fecha_cita: fechaCita\n};\n\n// Devolvemos el nuevo objeto combinado\nmsg.payload = citaCombinada;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1320,
+        "y": 160,
+        "wires": [
+            [
+                "ef8a8f807f048faf"
+            ]
+        ]
+    },
+    {
+        "id": "02b194f1e047fa69",
+        "type": "change",
+        "z": "922947a150995d7b",
+        "name": "limpiador",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 160,
+        "y": 520,
+        "wires": [
+            [
+                "ed9283e7ef85826f"
+            ]
+        ]
+    },
+    {
+        "id": "ed9283e7ef85826f",
+        "type": "delay",
+        "z": "922947a150995d7b",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 360,
+        "y": 480,
+        "wires": [
+            [
+                "67b079d62078e18b"
+            ]
+        ]
+    },
+    {
+        "id": "07af0070955633c0",
+        "type": "function",
+        "z": "922947a150995d7b",
+        "name": "traducir 1",
+        "func": "// Obtener los valores actuales del payload\nlet historia = msg.payload.historia;\nlet fechaCita = msg.payload.fecha_cita;\nlet actividadCodigo = msg.payload.actividad;\nlet consultorioCodigo = msg.payload.codigo_consultorio;\n\n// Crear el nuevo formato\nmsg.payload = {\n    \"historia\": historia,\n    \"fechaCita\": fechaCita,\n    \"actividad\": {\n        \"codigo\": actividadCodigo\n    },\n    \"consultorio\": {\n        \"codigo\": consultorioCodigo\n    }\n};\n\n// Retornar el mensaje modificado\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1180,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "79b1188ff0060878",
+        "type": "http request",
+        "z": "922947a150995d7b",
+        "name": "",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://172.22.0.4:8080/cita",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 1050,
+        "y": 640,
+        "wires": [
+            [
+                "d8f1c7bbdef6cbf0"
+            ]
+        ]
+    },
+    {
+        "id": "d2e907d97463e4c9",
+        "type": "inject",
+        "z": "922947a150995d7b",
+        "name": "Prueba json para crear cita  ",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"historia\":123456789,\"fechaCita\":\"2024-10-02T23:00:00\",\"actividad\":{\"codigo\":\"rxcl04\"},\"consultorio\":{\"codigo\":1}}",
+        "payloadType": "json",
+        "x": 810,
+        "y": 740,
+        "wires": [
+            [
+                "79b1188ff0060878",
+                "65fe8e0eeed1f9d6"
+            ]
+        ]
+    },
+    {
+        "id": "2ba07746a88cfbff",
+        "type": "debug",
+        "z": "922947a150995d7b",
+        "name": "debug 27",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1420,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "d8f1c7bbdef6cbf0",
+        "type": "debug",
+        "z": "922947a150995d7b",
+        "name": "debug 28",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1300,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "65fe8e0eeed1f9d6",
+        "type": "debug",
+        "z": "922947a150995d7b",
+        "name": "debug 29",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1220,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "c94a178027a44391",
+        "type": "function",
+        "z": "922947a150995d7b",
+        "name": "function 5",
+        "func": "// Obtenemos el payload entrante\nlet input = msg.payload;\n\n// Transformamos el payload al nuevo formato\nlet output = {\n    historia: input.historia,\n    fechaCita: input.fecha_cita + \":00\",  // Añadimos segundos al formato de la fecha\n    actividad: {\n        codigo: input.actividad\n    },\n    consultorio: {\n        codigo: parseInt(input.codigo_consultorio)\n    }\n};\n\n// Asignamos el nuevo payload al mensaje\nmsg.payload = output;\n\n// Retornamos el mensaje modificado\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1220,
+        "y": 560,
+        "wires": [
+            [
+                "2ba07746a88cfbff",
+                "79b1188ff0060878"
+            ]
+        ]
+    },
+    {
+        "id": "32d832202d134a11",
+        "type": "inject",
+        "z": "922947a150995d7b",
+        "name": "Prueba json para crear cita  ",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"historia\":123456789,\"fechaCita\":\"2024-10-06T02:00:00\",\"actividad\":{\"codigo\":\"rxcl04\"},\"consultorio\":{\"codigo\":1}}",
+        "payloadType": "json",
+        "x": 790,
+        "y": 840,
+        "wires": [
+            [
+                "79b1188ff0060878"
+            ]
+        ]
+    },
+    {
+        "id": "92e3ef9a7d8320fb",
+        "type": "inject",
+        "z": "922947a150995d7b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"recordId\":\"rec-001\",\"date\":\"2023-10-05T00:00:00.000Z\"}",
+        "payloadType": "json",
+        "x": 210,
+        "y": 1820,
+        "wires": [
+            [
+                "f609a771316f8f80"
+            ]
+        ]
+    },
+    {
+        "id": "af9cef47d0a1688f",
+        "type": "debug",
+        "z": "922947a150995d7b",
+        "name": "debug 30",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 1820,
+        "wires": []
+    },
+    {
+        "id": "f609a771316f8f80",
+        "type": "http request",
+        "z": "922947a150995d7b",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://192.168.0.53:8001/pacientes",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 450,
+        "y": 1820,
+        "wires": [
+            [
+                "af9cef47d0a1688f"
+            ]
+        ]
+    }
+]
